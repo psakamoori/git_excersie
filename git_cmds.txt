@@ -1,0 +1,8 @@
+# Cloing a git repo
+git clone "git@github.com:<your_name>/git_excersie.git"
+
+# Creating a branch
+git checkout -b <new_branch_name>
+
+
+
