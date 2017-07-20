@@ -18,6 +18,22 @@ git checkout master
 git merge <branch>
 git push -u origin master
 
+# To View all the branches
+git branch -a
+
+# To view commit log 
+git log
+
+# To revert a change
+git revert <commit-id>
+
+# To reset to specific commit
+git reset <commit-id>
+
+git reset --hard <HEAD>  -> This will reset your branch to point to last pushed commit, all other commit which are not pushed will be lost
+
+
+
 
 
 
